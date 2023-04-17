@@ -20,7 +20,7 @@ bot = commands.Bot(command_prefix="ta!",intents=nextcord.Intents.all(),activity=
 logsID = 1094663991214751864
 TOKEN = str(os.environ.get("TOKEN"))
 print(TOKEN)
-fiverrLink = "https://www.fiverr.com/sweetpotatoe236/create-a-high-quality-custom-bot"
+fiverrLink = "https://www.fiverr.com/sweetpotatoe236/create-a-high-quality-custom-discord-bot"
 url = "https://www.google.com/search?q={}"
 guild_ids = [1077562765033615381]
 
