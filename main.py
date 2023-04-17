@@ -9,12 +9,17 @@ import requests
 from bs4 import BeautifulSoup
 from googlesearch import search
 from gtts import gTTS
+import dotenv
+import os
+
+dotenv.load_dotenv()
 
 bot = commands.Bot(command_prefix="ta!",intents=nextcord.Intents.all(),activity=nextcord.Activity(name=f"Pycharm",type=nextcord.ActivityType.watching))
 
 
 logsID = 1094663991214751864
-TOKEN = "MTA3MzQwODEzNzczMTc4MDY5OA.GRzh80.XGUZSr-Sn-YNveHPWzUFO6eTyxq9s2p7itsKao"
+TOKEN = str(os.environ.get("TOKEN"))
+print(TOKEN)
 fiverrLink = "https://www.fiverr.com/sweetpotatoe236/create-a-high-quality-custom-nextcord-bot"
 url = "https://www.google.com/search?q={}"
 guild_ids = [1077562765033615381]
