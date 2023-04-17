@@ -14,7 +14,7 @@ bot = commands.Bot(command_prefix="ta!",intents=nextcord.Intents.all(),activity=
 
 
 logsID = 1094663991214751864
-TOKEN = "MTA3MzQwODEzNzczMTc4MDY5OA.GRzh80.XGUZSr-Sn-YNveHPWzUFO6eTyxq9s2p7itsKao"
+TOKEN = "N/A"
 fiverrLink = "https://www.fiverr.com/sweetpotatoe236/create-a-high-quality-custom-nextcord-bot"
 url = "https://www.google.com/search?q={}"
 guild_ids = [1077562765033615381]
